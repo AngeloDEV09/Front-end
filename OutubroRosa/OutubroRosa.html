@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+  <link rel="stylesheet" href="OutubroRosa.css">
+  <title>Outubro Rosa</title>
+</head>
+<body class="w3-flat-pink">
+
+
+  <header class="w3-container w3-center w3-padding-32 w3-pale-red w3-animate-top">
+    <h1 class="w3-xxlarge">🎀 Outubro Rosa</h1>
+    <p class="w3-large">Conscientização e Prevenção do Câncer de Mama</p>
+  </header>
+
+
+  <nav class="w3-bar w3-pink w3-center w3-animate-opacity">
+    <a href="#sobre" class="w3-bar-item w3-button">Sobre</a>
+    <a href="#acoes" class="w3-bar-item w3-button">Ações</a>
+    <a href="#recursos" class="w3-bar-item w3-button">Recursos</a>
+    <a href="#contato" class="w3-bar-item w3-button">Contato</a>
+  </nav>
+
+  <section id="sobre" class="w3-container w3-padding-64 w3-animate-bottom">
+    <h2 class="w3-center">Sobre a Campanha</h2>
+    <p class="w3-large w3-center">
+      O Outubro Rosa é uma campanha mundial para conscientizar sobre a importância da prevenção
+      e do diagnóstico precoce do câncer de mama.
+    </p>
+  </section>
+
+
+  <section id="acoes" class="w3-container w3-padding-64 w3-light-pink">
+    <h2 class="w3-center">Ações Programadas</h2>
+    <div class="w3-row-padding w3-center" style="margin-top:32px">
+
+      <div class="w3-third w3-margin-bottom w3-animate-left">
+        <div class="w3-card w3-white">
+          <div class="w3-container">
+            <h3>Mutirão de Exames</h3>
+            <p>Mamografias gratuitas em unidades de saúde.</p>
+            <a href="#contato" class="w3-button w3-pink w3-margin-bottom">Participar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom w3-animate-top">
+        <div class="w3-card w3-white">
+          <div class="w3-container">
+            <h3>Palestras</h3>
+            <p>Especialistas falam sobre prevenção e diagnóstico precoce.</p>
+            <a href="#recursos" class="w3-button w3-pink w3-margin-bottom">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom w3-animate-right">
+        <div class="w3-card w3-white">
+          <div class="w3-container">
+            <h3>Campanha Digital</h3>
+            <p>Divulgação em redes sociais com vídeos e depoimentos.</p>
+            <a href="https://www.youtube.com" class="w3-button w3-pink w3-margin-bottom">Ver Vídeos</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="recursos" class="w3-container w3-padding-64 w3-animate-opacity">
+    <h2 class="w3-center">Recursos & Materiais</h2>
+    <div class="w3-row-padding w3-center" style="margin-top:32px">
+      <div class="w3-half">
+        <div class="w3-card w3-white w3-padding">
+          <h3>Materiais Gráficos</h3>
+          <p>Cartazes, folders e posts prontos para divulgação.</p>
+          <a href="#" class="w3-button w3-pink">Baixar</a>
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="w3-card w3-white w3-padding">
+          <h3>Vídeos Educativos</h3>
+          <p>Orientações e relatos em formato audiovisual.</p>
+          <a href="https://www.youtube.com" target="_blank" class="w3-button w3-pink">Assistir</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="w3-container w3-padding-64 w3-light-pink w3-animate-bottom">
+    <h2 class="w3-center">Contato</h2>
+    <div class="w3-center">
+      <p>Email: <a href="mailto:contato@outubrorosa.org.br">contato@outubrorosa.org.br</a></p>
+      <p>WhatsApp: <a href="tel:+550000000000">+55 (00) 0000-0000</a></p>
+      <p><strong>PIX:</strong> 00000000-00</p>
+    </div>
+  </section>
+
+  <footer class="w3-container w3-center w3-padding-16 w3-pale-red w3-animate-opacity">
+    <p>&copy; <span id="ano"></span> Outubro Rosa — Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    document.getElementById("ano").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

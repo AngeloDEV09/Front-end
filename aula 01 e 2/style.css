@@ -1,0 +1,10 @@
+    .imagem-gato {
+    text-align: center;
+}
+    .imagem-gato img {
+    border: 2px solid black;    
+}
+    .descricao {
+    font-weight: bold;
+    text-align: center;
+}   

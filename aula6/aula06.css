@@ -1,0 +1,17 @@
+.div1:hover{
+    background-color: aqua;
+}
+
+.div2:hover{
+    color: blueviolet;
+}
+
+.div2 > p {
+    display: none;
+}
+
+.div2:hover > p {
+    display: block;
+    color: white;
+    background-color: blueviolet;
+}

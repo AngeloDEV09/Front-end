@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabela.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td>Curso</td>
+            <td>Horario</td>
+        </tr>
+        <br>
+        <tr>
+            <td>Front-end</td>
+            <td>18h as 22h</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <td>Nome</td>
+            <td>Idade</td>
+            <td>Sexo</td>
+            <td>Profissão</td>
+            <td>Graduação</td>
+        </tr>
+        <tr>
+            <td>Angelo</td>
+            <td>23</td>
+            <td>masculino</td>
+            <td>TI</td>
+            <td>ADS</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <form action=" " method="post">
+        <label>Nome:</label>
+            <input type="text"><br>
+        <label>Senha:</label>
+            <input type="password"><br>
+        <label>Mensagem:</label>
+            <textarea> </textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+    <br>
+    <form action="./">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"
+        placeholder="seuemail@local.com">
+
+        <label for="idade">idade</label>
+        <input type="number" name="idade" id="idade">
+
+        <label for="data">Data</label>
+        <input type="date" name="data" id="data">
+
+        <button type="button">Enviar</button>
+    </form>
+    <br>
+    <br>
+    <form action="./">
+        <div>
+            <input type="checkbox" name="anuncio" id="anuncio"
+            checked>
+            <label for="anuncio">Aceito receber anuncios</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="anuncio" id="anuncio">
+            <label for="anuncio">Não aceito receber anuncios</label>
+        </div>
+        <br>
+        <p>Formas de contato:</p>
+        <div>
+            <input type="radio" name="contato" id="email">
+            <label for="email">E-mail</label>
+        </div>
+        <div>
+            <input type="radio" name="contato" id="whatsapp">
+            <label for="whatsapp">Whatsapp</label> 
+        </div>
+
+        <button>Enviar</button>
+    </form>
+    <br>
+    <br>
+    <div class="pagamento">
+        <label for="parcelas">Parcelas</label>
+        <select name="parcelas" id="parcelas">
+            <option value="1x">1x de R$: 120,00</option>
+            <option value="2x">2x de R$: 60,00</option>
+            <option value="3x">3x de R$: 40,00</option>
+            <option value="4x">4x de R$: 30,00</option>
+        </select>
+    </div>
+    <button>Enviar</button>
+    <br>
+    <br>
+    <label for="msg">Deixe sua mensagem:</label>
+    <textarea name="msg" id="msg" cols="20" rows="5"></textarea>
+    <button>Enviar</button>
+</body>
+</html>
